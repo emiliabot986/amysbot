@@ -13,25 +13,24 @@
             position: relative;
             background-color: #ffffff;
         }
-        .logo-bg {
+        .logo {
             position: absolute;
             top: 20px;
             left: 20px;
-            z-index: 0;
-            opacity: 0.05;
+            z-index: 1;
             width: 300px;
         }
         .content {
             position: relative;
-            z-index: 1;
-            padding-top: 200px; /* отступ от логотипа */
+            z-index: 2;
+            padding-top: 220px; /* отступ, чтобы не налезать на логотип */
         }
     </style>
 </head>
 <body>
 
-    <!-- Логотип как фоновое изображение -->
-    <img src="photo_2025-06-05_11-51-58.jpg" alt="Логотип Amy's" class="logo-bg">
+    <!-- Яркий логотип без прозрачности -->
+    <img src="photo_2025-06-05_11-51-58.jpg" alt="Логотип Amy's" class="logo">
 
     <div class="content">
         <h1>Политика конфиденциальности Telegram-бота @amysbrand_bot</h1>
